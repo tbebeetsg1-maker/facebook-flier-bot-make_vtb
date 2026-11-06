@@ -64,7 +64,7 @@ flowchart LR
 ### 1. The review email
 When a flier is marked **Pending**, the bot emails it for approval:
 
-![Review email sent by the bot with the month, theme, post date, flier link, and caption](screenshots/review-email.png)
+![Review email sent by the bot with the month, theme, post date, flier link, and caption](screenshots/review-email.png.png)
 
 ### 2. Live on Facebook
 After the client approves, the bot posts the flier to her Page:
