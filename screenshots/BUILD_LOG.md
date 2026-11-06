@@ -54,3 +54,8 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Configured Upload a Photo: her Page, the flier from the Drive download, and the caption from the Sheet
 - End-to-end test passed; added the client to the review email
 - 🎉 **First real flier ("Fall in Love," Nov 2026) posted live to her Facebook Page**
+- 
+## Nov 6, 2026 — GitHub case study (1h 23m) · Running total: 9h 25m
+- Created this repo and wrote the README case study: problem, Mermaid flow diagram, status flow, tools and costs, challenges and lessons
+- Added screenshots: the Make scenario, the review email, and the live Facebook post
+- Wrote this build log from the time tracker
