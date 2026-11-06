@@ -1,15 +1,12 @@
-# facebook-flier-bot-make_vtb
-Monthly Facebook flier automation for a hair stylist: Google Sheets approval queue + Make.com + Facebook Pages, with a client review step.
-
 # 💇‍♀️ Facebook Flier Bot for a Hair Stylist
 
 A no-code automation that posts a monthly promotional flier to a hair stylist's Facebook Page, **only after the client approves it**.
 
 Built with **Make.com**, **Google Sheets**, **Google Drive**, **Gmail**, and the **Facebook Pages** API, on free plans.
 
-> **Client:** Rylee, hair stylist — [R.cobeauty](https://www.facebook.com/) (South Elgin, IL)
-> **Built by:** Tabitha Bebee
-> **Status:** ✅ Live — first flier posted November 5, 2026
+> **Client:** Rylee, hair stylist — R.cobeauty on Facebook (South Elgin, IL)<br>
+> **Built by:** Tabitha Bebee<br>
+> **Status:** ✅ Live — first flier posted November 5, 2026<br>
 > Shared with the client's written permission.
 
 ---
@@ -121,4 +118,3 @@ I built a path that generated fliers with the OpenAI image API. Two rounds of te
 | `docs/` | Client guide and Google Sheet layout |
 | `screenshots/` | Make scenario, review email, live post |
 | `make-blueprint/` | Exported Make scenario (sanitized) |
-
