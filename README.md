@@ -8,7 +8,7 @@ A no-code automation that posts a monthly promotional flier to a hair stylist's 
 
 Built with **Make.com**, **Google Sheets**, **Google Drive**, **Gmail**, and the **Facebook Pages** API, on free plans.
 
-> **Client:** Rylee Bennett, hair stylist — [R.cobeauty](https://www.facebook.com/) (South Elgin, IL)
+> **Client:** Rylee, hair stylist — [R.cobeauty](https://www.facebook.com/) (South Elgin, IL)
 > **Built by:** Tabitha Bebee
 > **Status:** ✅ Live — first flier posted November 5, 2026
 > Shared with the client's written permission.
