@@ -59,6 +59,20 @@ flowchart LR
 
 ---
 
+## See it in action
+
+### 1. The review email
+When a flier is marked **Pending**, the bot emails it for approval:
+
+![Review email sent by the bot with the month, theme, post date, flier link, and caption](screenshots/review-email.png)
+
+### 2. Live on Facebook
+After the client approves, the bot posts the flier to her Page:
+
+![The November "Fall in Love" flier posted on the R.cobeauty Facebook Page](screenshots/facebook-post.png)
+
+---
+
 ## Tools and cost
 
 | Tool | Purpose | Monthly cost |
@@ -74,7 +88,7 @@ flowchart LR
 
 ## Build stats
 
-- **Total build time:** ~8 hours (tracked task-by-task in a live tracker)
+- **Total build time:** ~8 hours (tracked task-by-task in a live tracker; see [BUILD_LOG.md](BUILD_LOG.md))
 - **From first idea to first live post:** 14 days, around school and other projects
 - **Experiments that didn't make the cut:** Instagram posting, AI auto-generated fliers (~$0.20 in API tests)
 
@@ -82,21 +96,26 @@ flowchart LR
 
 ## Challenges and what I learned
 
-**1. Getting access to the client's Facebook Page**
+### 1. Getting access to the client's Facebook Page
 The plan was for the client to add me as a Page admin. Her Page lives in a Meta business portfolio, the invite failed repeatedly, and the brand-new Facebook account I created for it was flagged and banned.
+
 **Fix:** the client logs in herself during the Make connection over a Zoom call with remote control. Her password never touches my hands.
+
 **Lesson:** default to the client connecting their own accounts. Never create a brand-new, empty Facebook account just for client work.
 
-**2. Instagram was dropped**
+### 2. Instagram was dropped
 Instagram posting requires a Business/Creator account linked to the Facebook Page, which wasn't viable for this client.
+
 **Lesson:** confirm every platform's account requirements before promising it.
 
-**3. AI auto-generated fliers didn't match the approved look**
+### 3. AI auto-generated fliers didn't match the approved look
 I built a path that generated fliers with the OpenAI image API. Two rounds of tests (cartoon, then semi-realistic) didn't match the style the client loved.
+
 **Fix:** kept ChatGPT as a hands-on design step and removed the auto-generate path.
+
 **Lesson:** lock in the look before automating it. Prompt-only image generation can't reliably match a specific approved style or face.
 
-**4. Small technical gotchas**
+### 4. Small technical gotchas
 - Pulling a Google Drive file ID out of a share link with `split()` (the empty piece after `https://` is skipped, so the ID is piece 5)
 - *Web View Link* vs *Web Content Link*. Only one works with the download step
 - A 15-minute default schedule would have burned ~2,900 credits/month. It's now run on demand
