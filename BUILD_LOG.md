@@ -59,3 +59,8 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Created this repo and wrote the README case study: problem, Mermaid flow diagram, status flow, tools and costs, challenges and lessons
 - Added screenshots: the Make scenario, the review email, and the live Facebook post
 - Wrote this build log from the time tracker
+- 
+## Nov 9, 2026 — Docs, blueprint, privacy cleanup (26m) · Running total: 9h 51m
+- Added `docs/sheet-layout.md` (Google Sheet columns, status dropdown, tips)
+- Added a public version of the client guide: last name removed, contact info blurred
+- Exported the Make scenario and sanitized it (connection IDs, Sheet/Page IDs, emails, and client details removed) with import instructions
