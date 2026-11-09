@@ -13,7 +13,7 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 | Nov 6, 2026 | 1h 23m | 9h 25m |
 | Nov 9, 2026 | 26m | **9h 51m** |
 | Nov 9, 2026 (part 2) | 53m | **10h 44m** |
-
+| Nov 9, 2026 (part 3) | 45m | **11h 29m** |
 ---
 
 ## Oct 22, 2026 — Planning and client guide (36m)
@@ -77,3 +77,10 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
   - Approved path posts the flier when its Post Date has arrived
 - Raised the search limit to 20 rows so batched fliers are all visible
 - Safety test passed: the December flier was found but correctly not emailed early
+
+- 
+## Nov 9, 2026 — Batched fliers + automation ON (45m) · Running total: 11h 29m
+- Made January ("New Year, New You!"), February ("Love Your Hair"), and March ("Lucky Locks!") fliers, each with a new scene and colors while keeping Rylee consistent
+- Skipped a champagne idea for January since the client is under 21; used a "snipping the 2026 streamer" scene instead
+- Loaded all fliers into the Sheet as Pending with Post Dates on the 1st
+- 🚀 Turned the scenario ON. First automatic review email: Nov 24. First automatic post: Dec 1
