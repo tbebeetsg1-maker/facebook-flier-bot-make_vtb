@@ -9,7 +9,9 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 | Oct 27, 2026 | 52m | 3h 03m |
 | Oct 29, 2026 | 24m | 3h 27m |
 | Nov 2, 2026 | 2h 29m | 5h 56m |
-| Nov 5, 2026 | 2h 06m | **8h 02m** |
+| Nov 5, 2026 | 2h 06m | 8h 02m |
+| Nov 6, 2026 | 1h 23m | 9h 25m |
+| Nov 9, 2026 | 26m | **9h 51m** |
 
 ---
 
