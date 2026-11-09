@@ -12,6 +12,7 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 | Nov 5, 2026 | 2h 06m | 8h 02m |
 | Nov 6, 2026 | 1h 23m | 9h 25m |
 | Nov 9, 2026 | 26m | **9h 51m** |
+| Nov 9, 2026 (part 2) | 53m | **10h 44m** |
 
 ---
 
@@ -66,3 +67,13 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Added `docs/sheet-layout.md` (Google Sheet columns, status dropdown, tips)
 - Added a public version of the client guide: last name removed, contact info blurred
 - Exported the Make scenario and sanitized it (connection IDs, Sheet/Page IDs, emails, and client details removed) with import instructions
+
+## Nov 9, 2026 — Monthly automation + December flier (53m) · Running total: 10h 44m
+- Removed the leftover "Generate" filter rule from the live scenario
+- Made the December "Gift of Gorgeous" flier with ChatGPT: kept Rylee the same, changed everything else (scene, colors, layout)
+- Caught an unconfirmed "gift cards" line before it went on a flier and replaced it with a booking-urgency line
+- **Automated monthly timing:** the scenario runs on the 24th and the 1st
+  - Pending path emails the flier for review when its Post Date is within 8 days
+  - Approved path posts the flier when its Post Date has arrived
+- Raised the search limit to 20 rows so batched fliers are all visible
+- Safety test passed: the December flier was found but correctly not emailed early
