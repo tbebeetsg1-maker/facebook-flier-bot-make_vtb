@@ -14,6 +14,7 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 | Nov 9, 2026 | 26m | **9h 51m** |
 | Nov 9, 2026 (part 2) | 53m | **10h 44m** |
 | Nov 9, 2026 (part 3) | 45m | **11h 29m** |
+| Nov 13, 2026 | 1h 06m | **12h 35m** |
 ---
 
 ## Oct 22, 2026 — Planning and client guide (36m)
@@ -72,7 +73,7 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Removed the leftover "Generate" filter rule from the live scenario
 - Made the December "Gift of Gorgeous" flier with ChatGPT: kept Rylee the same, changed everything else (scene, colors, layout)
 - Caught an unconfirmed "gift cards" line before it went on a flier and replaced it with a booking-urgency line
-- **Automated monthly timing:** the scenario runs on the 24th and the 1st
+- **Automated monthly timing:** the scenario runs on the 23rd and the 1st
   - Pending path emails the flier for review when its Post Date is within 8 days
   - Approved path posts the flier when its Post Date has arrived
 - Raised the search limit to 20 rows so batched fliers are all visible
@@ -84,3 +85,11 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Skipped a champagne idea for January since the client is under 21; used a "snipping the 2026 streamer" scene instead
 - Loaded all fliers into the Sheet as Pending with Post Dates on the 1st
 - 🚀 Turned the scenario ON. First automatic review email: Nov 24. First automatic post: Dec 1
+
+- 
+## Nov 13, 2026 — Spring and summer fliers (1h 06m) · Running total: 12h 35m
+- Made April ("Frizz-Free Season"), May ("Treat Mom!"), and June ("Summer Glow Up") fliers; all queued as Pending with Post Dates on the 1st
+- Added "mostly platinum blonde on top" to prompts so the character's hair stopped drifting pinker
+- Fixed a misspelling ("Custom Color") on the June flier and swapped an outfit that looked too similar to May's
+- Moved the monthly review email from the 24th to the 23rd and widened the date rule to 10 days to cover 31-day months
+- 7 fliers now queued (December 2026 through June 2027)
