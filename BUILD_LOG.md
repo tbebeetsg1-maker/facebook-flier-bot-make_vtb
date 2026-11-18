@@ -15,6 +15,7 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 | Nov 9, 2026 (part 2) | 53m | **10h 44m** |
 | Nov 9, 2026 (part 3) | 45m | **11h 29m** |
 | Nov 13, 2026 | 1h 06m | **12h 35m** |
+| Nov 18, 2026 | 54m | **13h 29m** |
 ---
 
 ## Oct 22, 2026 — Planning and client guide (36m)
@@ -93,3 +94,12 @@ Time tracked task-by-task in a live tracker. Times are estimated from session ti
 - Fixed a misspelling ("Custom Color") on the June flier and swapped an outfit that looked too similar to May's
 - Moved the monthly review email from the 24th to the 23rd and widened the date rule to 10 days to cover 31-day months
 - 7 fliers now queued (December 2026 through June 2027)
+
+
+## Nov 18, 2026 — Final four fliers, full year complete (54m) · Running total: 13h 29m
+- Made July ("Red, White & Fabulous!"), August ("Back-to-School Fresh"), September ("Fall Color Season"), and October ("Spooky-Cute Glam") fliers
+- Changed July to a Fourth of July theme; swapped "Gorgeous" for "Fabulous" to avoid repeating December's headline
+- Avoided unconfirmed services (kids' cuts) and kept Día de los Muertos to respectful decor (marigolds, papel picado)
+- Reworded the review email to speak directly to the client
+- Confirmed Make's built-in error, deactivation, and credit-limit email alerts are on; set time zones to Central
+- 🎉 **Full year queued:** 12 fliers from November 2026 through October 2027, each with a unique scene and palette
