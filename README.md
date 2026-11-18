@@ -6,7 +6,7 @@ Built with **Make.com**, **Google Sheets**, **Google Drive**, **Gmail**, and the
 
 > **Client:** Rylee, hair stylist — R.cobeauty on Facebook (South Elgin, IL)<br>
 > **Built by:** Tabitha Bebee<br>
-> **Status:** ✅ Live — first flier posted November 5, 2026<br>
+> **Status:** ✅ Live and fully automated — first flier posted November 5, 2026; a full year of fliers (Nov 2026 – Oct 2027) is queued<br>
 > Shared with the client's written permission.
 
 ---
@@ -54,8 +54,15 @@ flowchart LR
 
 1. **Google Sheets: Search Rows**, which finds rows where Status is `Pending` OR `Approved`
 2. **Router**, which splits into two filtered paths:
-   - **Pending → Email for review:** Gmail sends the flier link, caption, and post date → Sheets updates Status to `In Review`
-   - **Approved → Post it:** Google Drive downloads the flier → Facebook Pages *Upload a Photo* posts it with the caption → Sheets updates Status to `Posted` and stamps the date
+   - **Pending → Email for review:** only when the flier's Post Date is within the next 10 days. Gmail sends the flier link, caption, and post date → Sheets updates Status to `In Review`
+   - **Approved → Post it:** only when the Post Date has arrived. Google Drive downloads the flier → Facebook Pages *Upload a Photo* posts it with the caption → Sheets updates Status to `Posted` and stamps the date
+
+### Automatic schedule
+The scenario runs on its own **twice a month**:
+- **The 23rd:** emails the client next month's flier for review
+- **The 1st:** posts the approved flier to Facebook
+
+Fliers can be made months ahead and loaded as `Pending`. The date rules make sure each one is only sent for review, and only posted, at the right time. If the client approves late, one manual run posts it right away.
 
 ---
 
@@ -88,8 +95,9 @@ After the client approves, the bot posts the flier to her Page:
 
 ## Build stats
 
-- **Total build time:** ~8 hours (tracked task-by-task in a live tracker; see [BUILD_LOG.md](BUILD_LOG.md))
+- **Total build time:** ~13.5 hours (bot build, a full year of fliers, and this write-up; tracked task-by-task in a live tracker, see [BUILD_LOG.md](BUILD_LOG.md))
 - **From first idea to first live post:** 14 days, around school and other projects
+- **A full year of fliers:** 12 unique designs, about 15–20 minutes each
 - **Experiments that didn't make the cut:** Instagram posting, AI auto-generated fliers (~$0.20 in API tests)
 
 ---
@@ -118,13 +126,13 @@ I built a path that generated fliers with the OpenAI image API. Two rounds of te
 ### 4. Small technical gotchas
 - Pulling a Google Drive file ID out of a share link with `split()` (the empty piece after `https://` is skipped, so the ID is piece 5)
 - *Web View Link* vs *Web Content Link*. Only one works with the download step
-- A 15-minute default schedule would have burned ~2,900 credits/month. It's now run on demand
+- A 15-minute default schedule would have burned ~2,900 credits/month. It now runs just twice a month
 
 ---
 
 ## What's next
-- [ ] Date-based timing: review email ~1 week before each post date, auto-post on the date, daily check
-- [ ] Error alert email if a post fails
+- [x] Date-based timing: review email on the 23rd, auto-post on the 1st (scheduled twice a month)
+- [x] Error alerts via Make's built-in email notifications
 - [ ] Track results (reach, reactions, bookings) from Facebook Insights
 - [ ] Move the scenario to the client's own Make account when she's ready
 
@@ -134,6 +142,6 @@ I built a path that generated fliers with the OpenAI image API. Two rounds of te
 | Folder / File | What's inside |
 |---|---|
 | `BUILD_LOG.md` | Dated build log with time spent |
-| `docs/` | Client guide and Google Sheet layout |
+| `docs/` | Client guide (public version) and Google Sheet layout |
 | `screenshots/` | Make scenario, review email, live post |
 | `make-blueprint/` | Exported Make scenario (sanitized) |
